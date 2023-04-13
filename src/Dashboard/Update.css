@@ -1,0 +1,42 @@
+.update-main{
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-left: 340px;
+    overflow-y: scroll;
+    height: 600px;
+    padding-bottom: 50px;
+    background: url(../Images/newbackreg.avif);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 97%;
+}
+.update-label{
+    font-size: x-large;
+    font-weight: 600;
+    
+}
+.update-section{
+    padding-bottom: 100px;
+}
+.submit-button{
+    width: 100px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    margin-left: 20px;
+}
+.update-button{
+    width: 80px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    margin-left: 200px;
+    border-radius: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.delete-view{
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 600px;
+    background: url(../Images/viewblack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.delete-button{
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+.delete-dable{
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 100px;
+    text-align: center;
+}

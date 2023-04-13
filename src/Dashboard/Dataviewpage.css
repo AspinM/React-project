@@ -1,0 +1,23 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+
+  }
+  .data-view-main{
+    border:2px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 600px;
+    background: url(../Images/viewblack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .data-view-box{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 350px;
+    font-size: 18px;
+    background-color: white;
+  }

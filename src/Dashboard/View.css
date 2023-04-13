@@ -1,0 +1,44 @@
+.nodatapage{
+    width: 500px;
+    height: 390px;
+    background: url(../Images/nodata.webp);
+    background-repeat: no-repeat;
+    margin-left: 400px;
+    margin-top: 110px;
+}
+.view-main-box{
+    margin-top: 20px;
+    border: 1px solid black;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: url(../Images/images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    color: white;
+}
+.enter-reg{
+    font-size: xx-large;
+   margin-left: 200px;
+   margin-top: 50px;
+   
+}
+select{
+    margin-top: 50px;
+    font-size: x-large;
+width: 300px;
+border-radius: 10px ;
+border: 2px solid black;
+}
+.view-click{
+    width: 100px;
+    height: 45px;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+
+}

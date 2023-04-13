@@ -1,0 +1,82 @@
+.head-condent{
+    width: 99%;
+    height: 100px;
+    background: url(../Images/dark.avif);
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: sticky;
+    display: flex;
+    
+}
+.home-icon{
+    font-size: xx-large;
+    margin-left: 1000px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+.login-icon{
+    margin-top: 30px;
+
+    font-size: xx-large;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.video-top{
+    margin-top: 50px
+    ;
+}
+.side-condent{
+    display: flex;
+}
+.nav-buttons{
+    width: 400px;
+    height: 600px;
+    background: url(../Images/dark.avif);
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+.dash-main-box{
+    width: 100%;
+}
+.change-condent{
+   height: 100%;
+   width: 100%;
+}
+.link-but{
+    width: 275px;
+
+  height: 50px;
+color: white;
+ text-align:center;
+ margin-left: 20px;
+ border-radius: 10px;
+ font-size: 20px;
+ font-weight: 700;
+ margin-top: 13px;
+ padding-top: 8px;
+ background: url(../Images/navbut.avif);
+}
+.link-but:hover{
+    width: 275px;
+    height: 50px;
+    background:url(../Images/hoverr.avif);
+    color: black;
+
+}
+.logo-image{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+
+  @media only screen and (max-width: 2570px) {
+/* .dash-main-box{
+    width: 1200px;
+} */
+}

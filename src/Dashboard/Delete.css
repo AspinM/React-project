@@ -1,0 +1,36 @@
+.delete-main{
+    border: 2px solid black;
+    margin: 20px 0 0 20px;
+    border-radius: 10px;
+    height: 600px;
+    background: url(../Images/blue\ back.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 97%;
+    
+}
+.delete-label{
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 280px;
+    color: white;
+    margin-top: 50px;
+}
+.delete-but{
+    width: 90px;
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+.no-data-image{
+    margin-left: 400px;
+    margin-top: 150px;
+}
+select{
+    height: 30px;
+    width: 150px;
+}

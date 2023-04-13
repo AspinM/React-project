@@ -1,0 +1,33 @@
+
+.view-all-main{
+  border: 2px solid black;
+  text-align: center;
+margin-top: 20px;
+margin-left: 20px;
+height: 600px;
+width: 97%;
+border-radius: 10px;
+background: url(../Images/images.jpeg);
+color: white;
+overflow: scroll;
+
+}
+.filter{
+  margin-top: 50px;
+
+}
+.viewall-condent{
+  margin-top: 50px;
+  margin-left: 10px;
+  overflow: scroll;
+  width: 1150px;
+  padding-bottom: 50px;
+}
+.viewall-label{
+  margin-top: 50px;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+
+

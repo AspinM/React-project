@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Login from './Login/Login';
+import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+import Dashboardmain from './Dashboard/Dashboardmain'
+import Register from './Dashboard/Register';
+import View from './Dashboard/View';
+import Delete from './Dashboard/Delete';
+import Update from './Dashboard/Update';
+import Viewall from './Dashboard/Viewall';
+import Dashboardhome from './Dashboard/Dashboardhome';
+import Dataviewpage from './Dashboard/Dataviewpage';
+import Deletedetials from './Dashboard/Deletedetials';
+
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {/* <Login /> */}
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login />} /> 
+          
+          <Route path='/dashboard' element={<Dashboardmain />} >
+            <Route path='register' element={<Register />} />
+            <Route path='home' element={<Dashboardhome />} />
+            <Route path='view' element={<View />} />
+            <Route path='delete' element={<Delete />} />
+            <Route path='update' element={<Update />} />
+            <Route path='viewall' element={<Viewall />} />
+            <Route path='dataview/:id' element={<Dataviewpage />} />
+            <Route path='deletedata/:id' element={<Deletedetials />} />
+
+          </Route>   
+      </Routes>
+    </BrowserRouter >
+ </>
+  )
 }
 
-export default App;
+export default App
